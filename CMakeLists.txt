@@ -12,6 +12,8 @@ set(SOURCE_FILES
     include/factory.h
     include/registry.h
     include/service.h
+    include/hooks.h
+    include/driver.h
     include/autoloader.x.h
     test_cases/01_basic_tracking/basic_tracking.h
     src/lib.cpp)

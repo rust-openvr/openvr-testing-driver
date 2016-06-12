@@ -2,12 +2,13 @@
 
 ## Hardware
 - 1 tracking reference
-- 1 tracked controller with random values
+- 1 tracked controller
 
 ## Test requirements
 
 Driver level:
-- None
+0 - Should have been asked for a device pose at least twice (for tracking reference and for controller)
+1 - Should have been asked for a list of devices
 
 Application level:
 - Given hardware should be detected
