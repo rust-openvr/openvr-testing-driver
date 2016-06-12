@@ -7,8 +7,8 @@
 ## Test requirements
 
 Driver level:
-0 - Should have been asked for a device pose at least twice (for tracking reference and for controller)
-1 - Should have been asked for a list of devices
+- [1] Should have been asked for a device pose at least twice (for tracking reference and for controller)
+- [2] Should have been asked for a list of devices
 
 Application level:
 - Given hardware should be detected
