@@ -5,7 +5,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include_directories(
         include/
-        test_cases/)
+        test_cases/
+        openvr/headers/)
 
 set(SOURCE_FILES
     include/case.h
@@ -14,8 +15,11 @@ set(SOURCE_FILES
     include/service.h
     include/hooks.h
     include/driver.h
+    include/log.h
     include/autoloader.x.h
     test_cases/01_basic_tracking/basic_tracking.h
-    src/lib.cpp)
+
+    src/lib.cpp
+    src/driver.cpp)
 
 add_executable(openvr_testing_driver ${SOURCE_FILES})

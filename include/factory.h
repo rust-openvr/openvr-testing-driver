@@ -1,5 +1,7 @@
 #pragma once
 
+#include <vector>
+
 class TestFactory {
 
     // Singleton
@@ -15,6 +17,8 @@ private:
 public:
     TestFactory();
     ~TestFactory();
+
+    std::vector<int>* getDevices();
 
     void registerTrackedDevice();
 };
